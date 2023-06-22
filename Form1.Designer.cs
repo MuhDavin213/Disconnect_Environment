@@ -65,11 +65,13 @@
             // 
             this.dataMahasiswaToolStripMenuItem.Name = "dataMahasiswaToolStripMenuItem";
             resources.ApplyResources(this.dataMahasiswaToolStripMenuItem, "dataMahasiswaToolStripMenuItem");
+            this.dataMahasiswaToolStripMenuItem.Click += new System.EventHandler(this.dataMahasiswaToolStripMenuItem_Click);
             // 
             // dataStatusMahasiswaToolStripMenuItem
             // 
             this.dataStatusMahasiswaToolStripMenuItem.Name = "dataStatusMahasiswaToolStripMenuItem";
             resources.ApplyResources(this.dataStatusMahasiswaToolStripMenuItem, "dataStatusMahasiswaToolStripMenuItem");
+            this.dataStatusMahasiswaToolStripMenuItem.Click += new System.EventHandler(this.dataStatusMahasiswaToolStripMenuItem_Click);
             // 
             // FormHalamanUtama
             // 

@@ -28,5 +28,19 @@ namespace Disconnect_Environment
             fm.Show();
             this.Hide();
         }
+
+        private void dataMahasiswaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormDataMahasiswa fm = new FormDataMahasiswa();
+            fm.Show();
+            this.Hide();
+        }
+
+        private void dataStatusMahasiswaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStatusMahasiswa fm = new FormStatusMahasiswa();
+            fm.Show();
+            this.Hide();
+        }
     }
 }
